@@ -1,0 +1,55 @@
+🏎️ Game Race and Math: Pembelajaran Matematika Berbasis Permainan Balapan Game Race and Math adalah aplikasi permainan edukasi yang menggabungkan sensasi balapan mobil dengan tantangan perhitungan matematika. Game ini dirancang untuk meningkatkan kecepatan berpikir dan kemampuan berhitung pemain melalui cara yang interaktif dan menyenangkan.
+
+🌟 Tujuan Aplikasi
+
+Edukasi yang Menyenangkan: Mengubah persepsi belajar matematika dari membosankan menjadi kegiatan yang memicu adrenalin.
+
+Meningkatkan Ketangkasan: Melatih sinkronisasi antara koordinasi mata-tangan (balapan) dan pemrosesan kognitif (menjawab soal).
+
+Kecepatan Berpikir: Mendorong pemain untuk menyelesaikan soal aritmatika dalam waktu singkat agar bisa memenangkan balapan.
+
+Media Belajar Alternatif: Menjadi sarana latihan matematika mandiri bagi pelajar yang lebih menyukai metode visual dan kinetik.
+
+📋 Fitur Utama
+
+Mekanisme Race-to-Solve: Kecepatan atau performa kendaraan pemain dipengaruhi oleh akurasi dan kecepatan dalam menjawab soal matematika.
+
+Variasi Tingkat Kesulitan: Pilihan level soal mulai dari penjumlahan, pengurangan, perkalian, hingga pembagian yang dapat disesuaikan.
+
+Sistem Skor & Highscore: Mencatat hasil terbaik pemain untuk memotivasi peningkatan kemampuan secara berkelanjutan.
+
+Interaktivitas Real-time: Kontrol kendaraan yang responsif yang terintegrasi langsung dengan panel jawaban soal di layar.
+
+Visual Dinamis: Antarmuka grafis bertema balapan yang menarik untuk menjaga keterlibatan pemain selama proses belajar.
+
+🕹️ Petunjuk Pemakaian 1. Persiapan Bermain
+
+Mulai Game: Buka aplikasi dan tekan tombol "Start" pada menu utama.
+
+Pilih Level: Pilih kategori matematika (misal: Perkalian) dan tingkat kesulitan yang diinginkan sesuai kemampuan.
+
+2. Mekanisme Permainan
+
+Mengemudi & Menjawab: Kendalikan kendaraan Anda sambil memperhatikan soal matematika yang muncul secara acak di layar.
+
+Input Jawaban: Ketik jawaban atau pilih opsi yang benar secepat mungkin. Jawaban yang benar akan memberikan dorongan kecepatan (boost) pada kendaraan Anda.
+
+Hindari Hambatan: Tetap fokus pada lintasan balap untuk menghindari rintangan sambil tetap memproses perhitungan angka.
+
+3. Tantangan Waktu
+
+Durasi Balapan: Selesaikan lintasan sebelum waktu habis atau sebelum lawan melewati garis finish.
+
+Combo Bonus: Jawab beberapa soal berturut-turut tanpa salah untuk mendapatkan poin tambahan dan kecepatan maksimal.
+
+4. Evaluasi Hasil
+
+Papan Skor: Di akhir sesi, lihat berapa banyak soal yang berhasil dijawab dengan benar dan total waktu tempuh Anda.
+
+Review: Gunakan hasil skor untuk mengetahui area matematika mana yang masih memerlukan latihan lebih lanjut.
+
+5. Mengulang & Keluar
+
+Main Lagi: Gunakan tombol "Retry" untuk mencoba memecahkan rekor sebelumnya.
+
+Keluar: Tekan tombol "Exit" atau "Menu" untuk kembali ke layar utama atau menyudahi permainan.
