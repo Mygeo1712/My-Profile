@@ -1,0 +1,150 @@
+/* assets/style.css - KODE TANPA KOMENTAR DAN TERSTRUKTUR ULANG */
+
+:root {
+   --color-accent: #212529;
+    --color-primary: #007bff;
+    --color-highlight: #ffc107;
+    --color-success-cf: #28a745;
+    --color-base: #f8f9fa;
+    --color-text-dark: #343a40;
+    --color-secondary-accent: #2c3e50;
+    --header-height: 60px;
+}
+
+/* FIX KRITIS: Universal Reset */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* --- Global Layout Fix (Wajib untuk Sticky Header) --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-base); 
+    color: var(--color-text-dark);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.has-fixed-header {
+    padding-top: var(--header-height); 
+}
+
+.main-header {
+    height: var(--header-height);
+    width: 100%; /* PENTING untuk fixed-top */
+    background-color: var(--color-accent) !important;
+    background-image: linear-gradient(to right, var(--color-secondary-accent), var(--color-accent));
+}
+/* FIX: Menghilangkan margin-top pada elemen pertama di main content */
+.main-content > div:first-child,
+.main-content h1:first-child,
+.main-content h2:first-child,
+.main-content h3:first-child {
+    margin-top: 0 !important;
+}
+
+
+/* --- Tipografi & Custom Classes --- */
+h1 {
+    font-weight: 800;
+    color: var(--color-accent);
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.text-lead { font-weight: 400; color: #5a6268; }
+.text-caption { font-style: italic; color: var(--color-highlight); font-weight: 300; }
+.text-highlight { color: var(--color-highlight) !important; }
+
+/* Tombol Utama */
+.btn-primary-color {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); 
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+.btn-primary-color:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-2px); 
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.4);
+}
+
+/* --- Hero Section Styling --- */
+.hero-section-container {
+    margin-top: 0 !important;
+    border-radius: 12px !important;
+    border-left: 6px solid var(--color-primary);
+}
+
+.hero-image {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform: rotate(1deg);
+    transition: transform 0.4s;
+}
+
+.hero-image:hover {
+    transform: rotate(-1deg) scale(1.02);
+}
+
+/* --- Card & Scroll Reveal --- */
+.card-info {
+    border: none;
+    border-left: 5px solid var(--color-primary);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-info:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Scroll Reveal */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(40px); 
+    transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* --- Diagnosis UI Specific --- */
+.card-header.bg-primary {
+    background-color: var(--color-secondary-accent) !important;
+    border-bottom: 3px solid var(--color-highlight);
+}
+
+.result-header {
+    background-color: var(--color-accent);
+    color: white;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Console Log (Aesthetics) */
+.console-log {
+    border: 1px solid #dee2e6; 
+    background-color: #ffffff;
+    min-height: 300px; 
+    max-height: 500px; 
+    overflow-y: auto;
+    font-family: 'Consolas', 'Courier New', monospace; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.text-search { color: #0d6efd; } 
+.text-success { color: #198754; } 
+.text-error { color: #dc3545; } 
+.text-info { color: #0dcaf0; }
