@@ -1,0 +1,54 @@
+💡 Business Recommendation: Sistem Pendukung Keputusan Pemilihan Ide Bisnis Business Recommendation adalah platform analisis data yang dirancang untuk membantu calon wirausaha dalam menentukan jenis bisnis yang paling potensial berdasarkan parameter tertentu. Aplikasi ini berfungsi sebagai konsultan digital yang memproses data untuk memberikan saran bisnis yang objektif dan terukur.
+
+🌟 Tujuan website
+
+Analisis Peluang: Membantu pengguna memetakan potensi bisnis di lokasi atau sektor tertentu berdasarkan data yang tersedia.
+
+Minimalisir Risiko: Mengurangi spekulasi dalam berbisnis dengan memberikan rekomendasi yang didasarkan pada perhitungan bobot kriteria.
+
+Efisiensi Pengambilan Keputusan: Mempercepat proses pemilihan ide bisnis bagi investor atau pemula melalui sistem perangkingan.
+
+Penyedia Data Komparatif: Menyediakan perbandingan antara satu jenis bisnis dengan bisnis lainnya secara transparan.
+
+📋 Fitur Utama
+
+Sistem Pendukung Keputusan (DSS): Menggunakan algoritma tertentu (seperti SAW, AHP, atau TOPSIS) untuk mengolah data kriteria menjadi urutan rekomendasi.
+
+Kustomisasi Kriteria: Pengguna dapat memasukkan parameter penting seperti modal tersedia, tingkat risiko, potensi keuntungan, dan tingkat persaingan.
+
+Visualisasi Hasil: Menampilkan hasil rekomendasi dalam bentuk tabel peringkat atau grafik agar mudah dipahami oleh pengguna.
+
+Manajemen Data Bisnis: Inventaris data berbagai jenis industri (kuliner, jasa, retail, dll) yang diperbarui secara berkala sebagai bahan referensi.
+
+Penyimpanan Hasil Konsultasi: Fitur untuk menyimpan hasil analisis agar pengguna dapat melihat kembali rekomendasi sebelumnya.
+
+🕹️ Petunjuk Pemakaian 
+1. Persiapan & Input Data
+
+Akses Sistem: Jalankan aplikasi melalui server lokal atau hosting yang tersedia.
+
+Input Parameter: Masukkan batasan yang Anda miliki, seperti jumlah modal maksimal dan lokasi target pasar.
+
+Penentuan Prioritas: Tentukan kriteria apa yang paling penting bagi Anda (misalnya: lebih mengutamakan risiko rendah daripada keuntungan besar).
+
+2. Proses Analisis (User)
+
+Jalankan Rekomendasi: Klik tombol "Proses" atau "Analisis" untuk membiarkan sistem menghitung kecocokan profil Anda dengan database bisnis yang ada.
+
+Lihat Hasil: Sistem akan menampilkan daftar ide bisnis mulai dari yang paling direkomendasikan hingga yang kurang sesuai.
+
+3. Evaluasi Detail Bisnis
+
+Detail Rekomendasi: Klik pada salah satu hasil untuk melihat detail mengapa bisnis tersebut menempati peringkat atas, termasuk estimasi BEP (Break Even Point).
+
+Bandingkan: Gunakan fitur bandingkan jika Anda ragu di antara dua pilihan ide bisnis yang memiliki skor serupa.
+
+4. Administrasi Data (Khusus Admin)
+
+Update Kriteria: Admin dapat menambah atau mengubah bobot kriteria jika terjadi perubahan tren pasar secara umum.
+
+Kelola Data Sektor: Menambah jenis bisnis baru ke dalam sistem agar pilihan rekomendasi semakin beragam.
+
+5. Selesai & Simpan
+
+Simpan/Cetak: Simpan hasil analisis dalam format PDF atau tangkapan layar untuk dijadikan bahan pertimbangan lebih lanjut bersama tim atau partner bisnis.
