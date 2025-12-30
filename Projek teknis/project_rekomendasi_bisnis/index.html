@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Rekomendasi Bisnis Makanan</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input,
+        select {
+            width: 300px;
+            padding: 8px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+        }
+
+        .hasil {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Rekomendasi Bisnis Makanan</h1>
+    <form method="post">
+        <label>Lokasi:</label>
+        <select name="lokasi" required>
+            <option value="pantai">Pantai</option>
+            <option value="gunung">Gunung</option>
+            <option value="kota">Kota</option>
+        </select>
+
+        <label>Iklim:</label>
+        <select name="iklim" required>
+            <option value="tropis">Tropis</option>
+            <option value="subtropis">Subtropis</option>
+        </select>
+
+        <label>Musim:</label>
+        <select name="musim" required>
+            <option value="kemarau">Kemarau</option>
+            <option value="hujan">Hujan</option>
+            <option value="semua">Semua</option>
+        </select>
+
+        <button type="submit">Cari Rekomendasi</button>
+    </form>
+
+    {% if pesan %}
+    <div class="hasil">
+        <h2>Hasil Rekomendasi:</h2>
+        <p>{{ pesan }}</p>
+    </div>
+    {% elif hasil %}
+    <div class="hasil">
+        <h2>Hasil Rekomendasi:</h2>
+        <ul>
+            {% for index, row in hasil.iterrows() %}
+            <li><strong>{{ row['bisnis'].capitalize() }}</strong>: {{ row['deskripsi'].capitalize() }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+
+</body>
+
+</html>
