@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Button_Back
+comment0.text=\r\n\ Button_Back\ class.\r\n
+comment1.params=previousWorld
+comment1.target=Button_Back(greenfoot.World)
+comment1.text=\r\n\ Konstruktor\ untuk\ Button_Back.\r\n\ Menerima\ parameter\ previousWorld\ yang\ akan\ mengembalikan\ kita\ ke\ world\ sebelumnya.\r\n
+comment2.params=
+comment2.target=void\ act()
+numComments=3

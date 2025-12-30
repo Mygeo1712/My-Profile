@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ScorePanel
+comment1.params=score
+comment1.target=void\ setScore(int)
+comment10.params=
+comment10.target=int\ getTimeAlive()
+comment11.params=
+comment11.target=void\ reset()
+comment2.params=
+comment2.target=ScorePanel()
+comment3.params=
+comment3.target=void\ updateDisplay()
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ saveScore()
+comment6.params=
+comment6.target=void\ updateTimer()
+comment7.params=time
+comment7.target=void\ displayTime(int)
+comment8.params=
+comment8.target=void\ resetTimer()
+comment9.params=time
+comment9.target=void\ recordTime(int)
+numComments=12

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Level3World
+comment1.params=
+comment1.target=Level3World()
+comment2.params=
+comment2.target=void\ endLevel()
+comment3.params=timeAlive
+comment3.target=void\ saveScore(long)
+comment4.params=
+comment4.target=void\ resetGame()
+comment5.params=
+comment5.target=void\ prepare()
+comment6.params=
+comment6.target=Life\ getLifePanel()
+comment7.params=
+comment7.target=ScorePanel\ getScorePanel()
+numComments=8
